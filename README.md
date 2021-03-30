@@ -18,14 +18,14 @@
   `"Server=; Port=; Username=; Password=; Database=; "`
 
 * **Once done with the previous steps, pull the latest copy of the repository and open a terminal to type the following commands:**
-  # This will trust the tls certificate in your local machine
-  > `dotnet dev-certs https -t`
+  * This will trust the tls certificate in your local machine
+  `dotnet dev-certs https -t`
 
-  # Navigate to the repository
-  > `cd <directory>\CovidCases\Application`
+  * Navigate to the repository
+  `cd <directory>\CovidCases\Application`
 
-  # Run the application
-  > `dotnet watch run`
+  * Run the application
+  `dotnet watch run`
 
 * **Call the API endpoints in port 5001**
   https://localhost:5001/api/cases
