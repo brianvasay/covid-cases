@@ -10,14 +10,14 @@
   C#
   C# Extensions
 
-* ** Once you have pulled the latest copy, please remove the `mock.` prefix from the following files:**
+* **Once you have pulled the latest copy, please remove the `mock.` prefix from the following files:**
   mock.appsettings.json
   mock.appsettings.Development.json
   
-* ** Ensure that the above files have values in the following section:
+* **Ensure that the above files have values in the following section:
   `"Server=; Port=; Username=; Password=; Database=; "`
 
-* ** Once done with the previous steps, pull the latest copy of the repository and open a terminal to type the following commands:**
+* **Once done with the previous steps, pull the latest copy of the repository and open a terminal to type the following commands:**
   # This will trust the tls certificate in your local machine
   > `dotnet dev-certs https -t`
 
@@ -27,7 +27,7 @@
   # Run the application
   > `dotnet watch run`
 
-* ** Call the API endpoints in port 5001**
+* **Call the API endpoints in port 5001**
   https://localhost:5001/api/cases
   https://localhost:5001/api/cases/top/confirmed?observationDate=2020-04-14&maxResults=2
 
